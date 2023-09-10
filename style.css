@@ -1,0 +1,357 @@
+/*FLEXBOX*/
+
+  /*display*/
+    .column{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+  /*align and justify*/
+    .justCont-center{
+        justify-content: center;
+    }
+
+    .justCont-spaceAround{
+        justify-content: space-around;
+    }
+
+    .justCont-spaceBtwn{
+        justify-content: space-between;
+    }
+    
+    .alignItms-center{
+        align-items: center;
+    }
+
+    .alignItms-stretch{
+        align-items: stretch;
+    }
+
+
+/*SPACING*/
+
+  /*padding*/
+    .paddingTop-10px{
+        padding-top: 10px;
+    }
+
+    .padding5px{
+        padding: 5px;
+    }
+
+    .padding10px{
+        padding: 10px;
+    }
+
+    .paddingBottom30px{
+      padding-bottom: 30px;
+    }
+
+    .paddingBottom0{
+      padding-bottom: 0;
+    }
+
+    .paddingSides-8px{
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+  /*margin*/  
+    .margin1px{
+        margin: 1px;
+    }
+
+    .margin20px{
+        margin: 20px;
+    }
+    
+    .marginBtm-100px{
+        margin-bottom: 100px;
+    }
+
+    .marginBottom0{
+      margin-bottom: 0;
+    }
+
+    .marginTop-10{
+      margin-top: 10px;
+    }
+
+  /*page relative*/
+    .bottom {
+        bottom: 0%;
+        right: 0%;
+        left: 0%;
+    } 
+
+
+/*POSITION*/
+  .positionAbsZ{
+    position: absolute;
+    z-index: 5;  
+  }    
+
+  .positionRel{
+    position: relative;
+  }
+
+
+/*SIZING*/  
+  /*width*/
+    .width33per{
+        width: 33%;
+    } 
+
+    .width10per{
+        width: 10%;
+    }
+
+    .width100per{
+        width: 100%;
+    }
+
+    .width-fitcont{
+        width: fit-content;
+    }
+
+    .width100vw{
+        width: 100vw;
+        margin-left: 0%;
+    }
+
+    .max-width{
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  
+  /*height*/
+    .height-fitCont{
+        height: fit-content;
+    }
+
+/*TEXT*/
+   /*case*/
+   .uppercase{
+    text-transform: uppercase;
+   }
+  /*alignment*/
+    .textAlgn-center{
+        text-align: center;
+    }    
+
+    .fontSize-50px{
+      font-size: 50px;
+    }
+
+/*OTHER*/
+  .backgroundColor{
+    background-color: rgb(57, 55, 53);
+  } 
+
+/*ELEMENTS*/
+  /*cuztomization*/
+    .mainMenu a, footer a, footer p{
+        text-decoration: none;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    } 
+
+    footer a, footer p {
+      font-size: small;
+    }
+
+    .popular a, .headerBtns a, .sales a, .brand a, h2, button{
+        text-decoration: none;
+        color: rgb(57, 55, 53);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .popular a, .sales a{
+      padding-top: 10px;
+    }
+
+    .popular img, .sales img{
+      width: 150px;
+      height: 250px;
+    }
+
+     h2 {
+      margin-bottom: 0.5px;
+      padding-left: 10px;
+      font-size: 30px;
+    }
+
+    .seeAll {
+      padding-left: 10px;
+    }
+
+    .line{
+      border: solid 1px;
+      border-color: rgb(57, 55, 53);
+    }
+
+    .responsive-image {
+      max-width: 100%; 
+      max-height: 800px;
+      height: auto; 
+      display: block; 
+      margin: 0 auto;
+  }
+
+  .addToBag{
+    right: 67px;
+    bottom: 5px;
+    width: 80px;
+  }
+
+  .priceHomepage, .addToBag button{
+    text-align: center;
+    font-size: 13px;
+    border-radius: 20px;
+  }
+
+  .addToBag button{
+    background-color: rgb(57, 55, 53);
+    color: white;
+  }
+
+  .priceHomepage{
+    background-color:white;
+    color: rgb(57, 55, 53);
+    width: 43px;
+    font-weight: bold;
+  }
+
+  .addToWishlist {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+  }
+
+  .emptyHeartWish{
+    color: rgb(57, 55, 53);
+    font-size: 20px;
+    right: 1px;
+    top: 1px;
+  }
+
+  .heartAnimAddWish{
+    color: rgb(78, 29, 29);
+    font-size: 18px;
+    right: 2px;
+    top: 2.2px;
+  }
+
+
+  .discount {
+    color: rgb(176, 24, 24);
+    font-weight: bold;
+    width: fit-content;
+    top: 10px;
+    right: 1px;
+  }
+
+  .paymentsAccepted i{
+    font-size: 25px;
+    color: rgb(29, 27, 25);
+  }
+    
+  /*hovers*/   
+  
+  img:hover {
+    cursor: default;
+    border: solid 1.5px;
+    border-color:rgb(57, 55, 53) ;
+  }
+
+  i:hover{
+    transform: scale(1.2);
+  }
+
+  .logoHover:hover{
+    transform: scale(1);
+  }
+
+  .addToBag button:hover{
+    color:rgb(57, 55, 53);
+    background-color: rgba(255, 255, 255, 0.606);
+    border: solid 1px;
+    border-color:rgb(57, 55, 53);
+    font-weight: bold;
+    transform: scale(1.05);
+  }
+
+  button:hover, .newCollection img:hover {
+    cursor: pointer;
+  }
+
+  .mainMenu a:hover, .footerLinks a:hover {
+    color: rgb(57, 55, 53);
+    font-weight: bold;
+    background-color: white;
+    border-radius: 20px;
+  }
+
+  .paymentsAccepted i:hover{
+    transform: scale(1);
+  }
+
+
+/*ANIMATIONS*/
+
+ /*scale in heart*/
+  @keyframes scaleInHeart {
+    0% {
+      transform: scale(0);
+    }
+
+    50% {
+      transform: scale(0.5);
+    }
+
+    100%{
+      transform: scale(1);
+    }
+  }
+
+  .scaleInHeartAnim {
+    animation-name: scaleInHeart;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+ /*scale out heart*/
+  @keyframes scaleOutHeart {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(0.5);
+    }
+
+    100%{
+      transform: scale(0);
+    }
+  }
+
+  .scaleOutHeartAnim {
+    animation-name: scaleOutHeart;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+
+/*Please visit the Attributions Folder for copyright and crediting information of third parties resources*/
+/*Please visit the License File for information regarding the license of thir project*/
+/*Please visit the Disclaimer File for important disclaimers regarding this project-*/
