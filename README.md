@@ -61,7 +61,7 @@ On this repository you will find the following files:
 
 To experience this project, simply follow these steps:
 
-1. Open the `index.html` file in your web browser.
+1. Open the `index.html` file in your web browser or click [here](https://sarafreitas02.github.io/Venusya/).
 2. Explore the project's homepage.
 
 *(Additional instructions and features will be added as the project evolves.)*
