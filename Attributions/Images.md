@@ -24,9 +24,9 @@ Don't forget to check all the amazing work of these photographers out. **Click t
 
 ## [Popular3 Image](/Images/popular3.jpg)
 
- - This beautiful photo used to ilustrate a *mockup product* is by [**Ana Itonishvili**](https://unsplash.com/@aniitonishvili).
+- This beautiful photo used to ilustrate a *mockup product* is by [**Zoran Zonde Stojanovski**](https://unsplash.com/@zonde).
 
- - To check the original image click [here](https://unsplash.com/photos/yLEUzdJJX6k).
+ - To check the original image click [here](https://unsplash.com/photos/Dw-oxX8ZM44).
 
 ## [Popular4 Image](/Images/popular4.png)
 
@@ -48,9 +48,9 @@ Don't forget to check all the amazing work of these photographers out. **Click t
 
 ## [Sales3 Image](/Images/sales3.jpg)
 
- - This beautiful photo used to ilustrate a *mockup product* is by [**Judeus Samson**](https://unsplash.com/@shotbyjudeus).
+ - This beautiful photo used to ilustrate a *mockup product* is by [**Ana Itonishvili**](https://unsplash.com/@aniitonishvili).
 
- - To check the original image click [here](hhttps://unsplash.com/photos/0UECcInuCR4);
+ - To check the original image click [here](https://unsplash.com/photos/yLEUzdJJX6k).
 
 ## [Sales4 Image](/Images/sales4.png)
 
