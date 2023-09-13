@@ -219,12 +219,24 @@
   .addToBag button{
     background-color: rgb(57, 55, 53);
     color: white;
+    width: 80px;
   }
 
   .priceHomepage{
     background-color:white;
     color: rgb(57, 55, 53);
     width: 43px;
+    font-weight: bold;
+  }
+
+  .productDescriptionHomepage {
+    background-color: white;
+    color:  rgb(57, 55, 53);
+    width: 130px;
+    text-align: center;
+    margin-top: 2px;
+    border-radius: 10px;
+    font-size: 15px;
     font-weight: bold;
   }
 
