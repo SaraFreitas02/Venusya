@@ -15,22 +15,33 @@
 </head>
 
 <body class="column alignItms-stretch  justCont-spaceBtwn paddingTop-10px max-width">
-    <header class="column">
+    <header id="header" class="column">
 
         <!--Brand Name and Slogan-->
         <div id="brand" class="brand column alignItms-center">
             <a href="index.html">
-                <h1 class="margin1px fontSize-50px"><i class="fa-regular fa-chess-queen logoHover" aria-hidden="true"></i>Venusya</h1>
+                <h1 class="margin1px fontSize-h1"><i class="fa-regular fa-chess-queen logoHover"
+                        aria-hidden="true"></i>Venusya</h1>
             </a>
             <p id="slogan" class="slogan margin1px"><em>embrace your elegance</em></p>
         </div>
 
-        <!--Header Buttons-->
-        <nav id="headerBtns" class="headerBtns row justCont-center margin20px">
-            <a href="#" class="width10per textAlgn-center"><i class="fa-solid fa-heart"></i></a>
-            <a href="#" class="width10per textAlgn-center"><i class="fa-solid fa-bag-shopping"></i></a>
-            <a href="#" class="width10per textAlgn-center"><i class="fa-solid fa-user"></i></a>
-        </nav>
+        <div id="headerBtnsDT" class="headerBtnsDT column">
+            <!--Header Buttons-->
+            <nav id="headerBtns" class="headerBtns row justCont-center alignItms-center margin20px">
+                <a href="#" class="width10per textAlgn-center"><i class="fa-solid fa-heart"></i></a>
+                <a href="#" class="width10per textAlgn-center"><i class="fa-solid fa-bag-shopping"></i></a>
+                <a href="#" class="width10per textAlgn-center"><i class="fa-solid fa-user"></i></a>
+            </nav>
+
+            <!--Dropdown Menu-->
+            <nav id="dropdownMenu" class="dropdownMenu row alignItms-center">
+                <button id="dpdMenu" class="dpdMenu">
+                    <i class="fa-solid fa-bars" aria-label="menu"></i>
+                </button>
+            </nav>
+        </div>
+
     </header>
 
     <main>
@@ -54,51 +65,71 @@
 
             <nav id="popularLinks" class="popularLinks row justCont-spaceAround marginTop-10 alignItms-stretch">
 
-                <!--Popular Item 1-->
-                <div class="productInHomepage positionRel">
-                    <a href="#" class="productImg"><img alt="product" src="Images/popular2.jpg"></a>
-                     <button class="emptyHeartWish addToWishlist positionAbsZ"><i class="fa-regular fa-heart"></i></button>
-                    <button class="heartAnimAddWish addToWishlist positionAbsZ"><i class="fa-solid fa-heart"></i></button>
-                    <div class="addToBag column positionAbsZ">
-                        <p class="priceHomepage uppercase paddingSides-8px marginBottom0">$99,99</p>
-                        <button>Add to Bag</button>
-                        <p class="productDescriptionHomepage">Camel Male Blazer Jacket</p>
+                <div class="2imgs row justCont-spaceAround width50per">
+
+                    <!--Popular Item 1-->
+                    <div class="productInHomepage positionRel">
+                        <a href="#" class="productImg"><img alt="product" src="Images/popular2.jpg"></a>
+                        <button class="emptyHeartWish addToWishlist positionAbsZ"><i
+                                class="fa-regular fa-heart"></i></button>
+                        <button class="heartAnimAddWish addToWishlist positionAbsZ"><i
+                                class="fa-solid fa-heart"></i></button>
+                        <div class="addToBag column positionAbsZ">
+                            <p class="priceHomepage uppercase paddingSides-8px marginBottom0">$99,99</p>
+                            <button>Add to Bag</button>
+                            <p class="productDescriptionHomepage">Camel Male Blazer Jacket</p>
+                        </div>
+                    </div>
+
+
+                    <!--Popular Item 2-->
+                    <div class="productInHomepage positionRel">
+                        <a href="#" class="productImg"><img alt="product" src="Images/popular3.jpg"></a>
+                        <button class="emptyHeartWish addToWishlist positionAbsZ"><i
+                                class="fa-regular fa-heart"></i></button>
+                        <button class="heartAnimAddWish addToWishlist positionAbsZ"><i
+                                class="fa-solid fa-heart"></i></button>
+                        <div class="addToBag column positionAbsZ">
+                            <p class="priceHomepage uppercase paddingSides-8px marginBottom0">$159,00</p>
+                            <button>Add to Bag</button>
+                            <p class="productDescriptionHomepage">Purple Silk Dress</p>
+                        </div>
                     </div>
                 </div>
 
-                <!--Popular Item 2-->
-                <div class="productInHomepage positionRel">
-                    <a href="#" class="productImg"><img alt="product" src="Images/popular3.jpg"></a>
-                     <button class="emptyHeartWish addToWishlist positionAbsZ"><i class="fa-regular fa-heart"></i></button>
-                    <button class="heartAnimAddWish addToWishlist positionAbsZ"><i class="fa-solid fa-heart"></i></button>
-                    <div class="addToBag column positionAbsZ">
-                        <p class="priceHomepage uppercase paddingSides-8px marginBottom0">$159,00</p>
-                        <button>Add to Bag</button>
-                        <p class="productDescriptionHomepage">Purple Silk Dress</p>
-                    </div>
-                </div>
+                <div class="2imgs row justCont-spaceAround width50per">
 
-                <!--Popular Item 3-->
-                <div class="productInHomepage positionRel">
-                    <a href="#" class="productImg"><img alt="product" src="Images/popular1.jpg"></a>
-                     <button class="emptyHeartWish addToWishlist positionAbsZ"><i class="fa-regular fa-heart"></i></button>
-                    <button class="heartAnimAddWish addToWishlist positionAbsZ"><i class="fa-solid fa-heart"></i></button>
-                    <div class="addToBag column positionAbsZ">
-                        <p class="priceHomepage uppercase paddingSides-8px marginBottom0">$119,00</p>
-                        <button>Add to Bag</button>
-                        <p class="productDescriptionHomepage">Beige Female Blazer Jacket</p>
-                    </div>
-                </div>
+                    <!--Popular Item 3-->
 
-                <!--Popular Item 4-->
-                <div class="productInHomepage positionRel">
-                    <a href="#" class="productImg"><img alt="product" src="Images/popular4.png"></a>
-                     <button class="emptyHeartWish addToWishlist positionAbsZ"><i class="fa-regular fa-heart"></i></button>
-                    <button class="heartAnimAddWish addToWishlist positionAbsZ"><i class="fa-solid fa-heart"></i></button>
-                    <div class="addToBag column positionAbsZ">
-                        <p class="priceHomepage uppercase paddingSides-8px marginBottom0">$109,00</p>
-                        <button>Add to Bag</button>
-                        <p class="productDescriptionHomepage">Black Male Blazer Jacket</p>
+                    <div class="productInHomepage positionRel">
+                        <a href="#" class="productImg"><img alt="product" src="Images/popular1.jpg"></a>
+                        <button class="emptyHeartWish addToWishlist positionAbsZ"><i
+                                class="fa-regular fa-heart"></i></button>
+                        <button class="heartAnimAddWish addToWishlist positionAbsZ"><i
+                                class="fa-solid fa-heart"></i></button>
+                        <div class="addToBag column positionAbsZ">
+                            <p class="priceHomepage uppercase paddingSides-8px marginBottom0">$119,00</p>
+                            <button>Add to Bag</button>
+                            <p class="productDescriptionHomepage">Beige Female Blazer Jacket</p>
+                        </div>
+
+
+                    </div>
+
+                    <!--Popular Item 4-->
+
+                    <div class="productInHomepage positionRel">
+                        <a href="#" class="productImg"><img alt="product" src="Images/popular4.png"></a>
+
+                        <button class="emptyHeartWish addToWishlist positionAbsZ"><i
+                                class="fa-regular fa-heart"></i></button>
+                        <button class="heartAnimAddWish addToWishlist positionAbsZ"><i
+                                class="fa-solid fa-heart"></i></button>
+                        <div class="addToBag column positionAbsZ">
+                            <p class="priceHomepage uppercase paddingSides-8px marginBottom0">$109,00</p>
+                            <button>Add to Bag</button>
+                            <p class="productDescriptionHomepage">Black Male Blazer Jacket</p>
+                        </div>
                     </div>
                 </div>
 
@@ -113,65 +144,91 @@
 
             <nav id="salesLinks" class="salesLinks row justCont-spaceAround marginTop-10 alignItms-stretch">
 
-                <!--Sales Product 1-->
-                <div class="productInHomepage positionRel">
-                    <a href="#" class="productImg"><img alt="product on sale" src="Images/sales1.png" ></a>
-                    <p class="discount positionAbsZ">-30%</p>
-                    <button class="emptyHeartWish addToWishlist positionAbsZ"><i class="fa-regular fa-heart"></i></button>
-                    <button class="heartAnimAddWish addToWishlist positionAbsZ"><i class="fa-solid fa-heart"></i></button>
-                    <div class="addToBag column positionAbsZ">
-                        <p class="priceHomepage uppercase paddingSides-8px marginBottom0">$105,00</p>
-                        <button>Add to Bag</button>
-                        <p class="productDescriptionHomepage">White Blouse + Black Skirt Set</p>
+                <div class="2imgs row justCont-spaceAround width50per">
+
+                    <!--Sales Product 1-->
+
+                    <div class="productInHomepage positionRel">
+                        <a href="#" class="productImg"><img alt="product on sale" src="Images/sales1.png"></a>
+                        <p class="discount positionAbsZ">-30%</p>
+                        <button class="emptyHeartWish addToWishlist positionAbsZ"><i
+                                class="fa-regular fa-heart"></i></button>
+                        <button class="heartAnimAddWish addToWishlist positionAbsZ"><i
+                                class="fa-solid fa-heart"></i></button>
+                        <div class="addToBag column positionAbsZ">
+                            <p class="priceHomepage uppercase paddingSides-8px marginBottom0">$105,00</p>
+                            <button>Add to Bag</button>
+                            <p class="productDescriptionHomepage">White Blouse + Black Skirt Set</p>
+                        </div>
                     </div>
+
+
+
+                    <!--Sales Product 2-->
+
+                    <div class="productInHomepage positionRel">
+                        <a href="#" class="productImg"><img alt="product on sale" src="Images/sales3.jpg"></a>
+                        <p class="discount positionAbsZ">-50%</p>
+                        <button class="emptyHeartWish addToWishlist positionAbsZ"><i
+                                class="fa-regular fa-heart"></i></button>
+                        <button class="heartAnimAddWish addToWishlist positionAbsZ"><i
+                                class="fa-solid fa-heart"></i></button>
+                        <div class="addToBag column positionAbsZ">
+                            <p class="priceHomepage uppercase paddingSides-8px marginBottom0">$30,00</p>
+                            <button>Add to Bag</button>
+                            <p class="productDescriptionHomepage">Black Female Hat</p>
+                        </div>
+                    </div>
+
                 </div>
 
-                <!--Sales Product 2-->
-                <div class="productInHomepage positionRel">
-                    <a href="#" class="productImg"><img alt="product on sale" src="Images/sales3.jpg"></a>
-                    <p class="discount positionAbsZ">-50%</p>
-                    <button class="emptyHeartWish addToWishlist positionAbsZ"><i class="fa-regular fa-heart"></i></button>
-                    <button class="heartAnimAddWish addToWishlist positionAbsZ"><i class="fa-solid fa-heart"></i></button>
-                    <div class="addToBag column positionAbsZ">
-                        <p class="priceHomepage uppercase paddingSides-8px marginBottom0">$30,00</p>
-                        <button>Add to Bag</button>
-                        <p class="productDescriptionHomepage">Black Female Hat</p>
-                    </div>
-                </div>
 
-                <!--Sales Product 3-->
-                <div class="productInHomepage positionRel">
-                    <a href="#" class="productImg"><img alt="product on sale" src="Images/sales2.jpg" ></a>
-                    <p class="discount positionAbsZ">-25%</p>
-                    <button class="emptyHeartWish addToWishlist positionAbsZ"><i class="fa-regular fa-heart"></i></button>
-                    <button class="heartAnimAddWish addToWishlist positionAbsZ"><i class="fa-solid fa-heart"></i></button>
-                    <div class="addToBag column positionAbsZ">
-                        <p class="priceHomepage uppercase paddingSides-8px marginBottom0">$164,25</p>
-                        <button>Add to Bag</button>
-                        <p class="productDescriptionHomepage">Gray Male Suit</p>
-                    </div>
-                </div>
 
-                <!--Sales Product 4-->
-                <div class="productInHomepage positionRel">
-                    <a href="#" class="productImg"><img alt="product on sale" src="Images/sales4.png" ></a>
-                    <p class="discount positionAbsZ">-50%</p>
-                    <button class="emptyHeartWish addToWishlist positionAbsZ"><i class="fa-regular fa-heart"></i></button>
-                    <button class="heartAnimAddWish addToWishlist positionAbsZ"><i class="fa-solid fa-heart"></i></button>
-                    <div class="addToBag column positionAbsZ">
-                         <p class="priceHomepage uppercase paddingSides-8px marginBottom0">$49,99</p>
-                        <button>Add to Bag</button>
-                        <p class="productDescriptionHomepage">Gray Female Blazer Jacket</p>
+                <div class="2imgs row justCont-spaceAround width50per">
+
+                    <!--Sales Product 3-->
+                    <div class="productInHomepage positionRel">
+                        <a href="#" class="productImg"><img alt="product on sale" src="Images/sales2.jpg"></a>
+                        <p class="discount positionAbsZ">-25%</p>
+                        <button class="emptyHeartWish addToWishlist positionAbsZ"><i
+                                class="fa-regular fa-heart"></i></button>
+                        <button class="heartAnimAddWish addToWishlist positionAbsZ"><i
+                                class="fa-solid fa-heart"></i></button>
+                        <div class="addToBag column positionAbsZ">
+                            <p class="priceHomepage uppercase paddingSides-8px marginBottom0">$164,25</p>
+                            <button>Add to Bag</button>
+                            <p class="productDescriptionHomepage">Gray Male Suit</p>
+                        </div>
                     </div>
+
+
+
+                    <!--Sales Product 4-->
+
+                    <div class="productInHomepage positionRel">
+                        <a href="#" class="productImg"><img alt="product on sale" src="Images/sales4.png"></a>
+                        <p class="discount positionAbsZ">-50%</p>
+                        <button class="emptyHeartWish addToWishlist positionAbsZ"><i
+                                class="fa-regular fa-heart"></i></button>
+                        <button class="heartAnimAddWish addToWishlist positionAbsZ"><i
+                                class="fa-solid fa-heart"></i></button>
+                        <div class="addToBag column positionAbsZ">
+                            <p class="priceHomepage uppercase paddingSides-8px marginBottom0">$49,99</p>
+                            <button>Add to Bag</button>
+                            <p class="productDescriptionHomepage">Gray Female Blazer Jacket</p>
+                        </div>
+                    </div>
+
                 </div>
 
             </nav>
-            <a href="#" class="seeAll paddingBottom30px">See all</a>
         </div>
+        <a href="#" class="seeAll paddingBottom30px">See all</a>
     </main>
     <footer class="column alignItms-stretch max-width width100per backgroundColor">
 
-        <div id="footerLinks" class="footerLinks row justCont-spaceAround marginTop-10 alignItms-stretch alignItms-center">
+        <div id="footerLinks"
+            class="footerLinks row justCont-spaceAround marginTop-10 alignItms-stretch alignItms-center">
             <div id="aboutVenusya"
                 class="aboutVenusya column alignItms-stretch width33per height-fitCont width-fitCont">
                 <!--About Venusya-->
@@ -213,7 +270,7 @@
         <nav id="socials" class="socials row justCont-center margin20px marginBtm-100px">
             <a href="https://www.facebook.com" class="padding5px"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://www.instagram.com" class="padding5px"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.twitter.com" class="padding5px"><i class="fa-brands fa-x-twitter" ></i></a>
+            <a href="https://www.twitter.com" class="padding5px"><i class="fa-brands fa-x-twitter"></i></a>
             <a href="https://www.tiktok.com" class="padding5px"><i class="fa-brands fa-tiktok"></i></a>
         </nav>
 

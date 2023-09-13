@@ -9,7 +9,6 @@
 
     .row{
         display: flex;
-        flex-wrap: wrap;
     }
    
   /*align and justify*/
@@ -23,6 +22,10 @@
 
     .justCont-spaceBtwn{
         justify-content: space-between;
+    }
+
+    .justCont-flexEnd{
+        justify-content: flex-end;
     }
     
     .alignItms-center{
@@ -83,6 +86,14 @@
       margin-top: 10px;
     }
 
+    .marginLeft-30px{
+      margin-left: 30px;
+    }
+
+    .marginBtm-30px{
+      margin-bottom: 30px;
+    }
+
   /*page relative*/
     .bottom {
         bottom: 0%;
@@ -116,6 +127,10 @@
         width: 100%;
     }
 
+    .width50per{
+        width: 50%;
+    }
+
     .width-fitcont{
         width: fit-content;
     }
@@ -145,7 +160,7 @@
         text-align: center;
     }    
 
-    .fontSize-50px{
+    .fontSize-h1{
       font-size: 50px;
     }
 
@@ -176,11 +191,6 @@
       padding-top: 10px;
     }
 
-    .popular img, .sales img{
-      width: 150px;
-      height: 250px;
-    }
-
      h2 {
       margin-bottom: 0.5px;
       padding-left: 10px;
@@ -202,77 +212,82 @@
       height: auto; 
       display: block; 
       margin: 0 auto;
-  }
+    }
 
-  .addToBag{
-    right: 67px;
-    bottom: 5px;
-    width: 80px;
-  }
+    .popular img, .sales img{
+      border-radius: 20px;
+    }  
 
-  .priceHomepage, .addToBag button{
-    text-align: center;
-    font-size: 13px;
-    border-radius: 20px;
-  }
+    .addToBag{
+      left: 3px;
+      bottom: 3px;
+      width: 80px;
+      max-height: fit-content;
+    }
 
-  .addToBag button{
-    background-color: rgb(57, 55, 53);
-    color: white;
-    width: 80px;
-  }
+    .priceHomepage, .addToBag button{
+      text-align: center;
+      font-size: 13px;
+      border-radius: 20px;
+    }
 
-  .priceHomepage{
-    background-color:white;
-    color: rgb(57, 55, 53);
-    width: 43px;
-    font-weight: bold;
-  }
+    .addToBag button{
+      background-color: rgb(57, 55, 53);
+      color: white;
+      width: 80px;
+    }
 
-  .productDescriptionHomepage {
-    background-color: white;
-    color:  rgb(57, 55, 53);
-    width: 130px;
-    text-align: center;
-    margin-top: 2px;
-    border-radius: 10px;
-    font-size: 15px;
-    font-weight: bold;
-  }
+    .priceHomepage{
+      background-color:white;
+      color: rgb(57, 55, 53);
+      width: 43px;
+      font-weight: bold;
+    }
 
-  .addToWishlist {
-    background-color: transparent;
-    border: none;
-    font-weight: bold;
-  }
+    .productDescriptionHomepage {
+      background-color: white;
+      color:  rgb(57, 55, 53);
+      width: 130px;
+      text-align: center;
+      margin-top: 2px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: bold;
+    }
 
-  .emptyHeartWish{
-    color: rgb(57, 55, 53);
-    font-size: 20px;
-    right: 1px;
-    top: 1px;
-  }
+    .addToWishlist {
+      background-color: transparent;
+      border: none;
+      font-weight: bold;
+    }
 
-  .heartAnimAddWish{
-    color: rgb(78, 29, 29);
-    font-size: 18px;
-    right: 2px;
-    top: 2.2px;
-  }
+    .emptyHeartWish{
+      color: rgb(57, 55, 53);
+      font-size: 20px;
+      right: 1px;
+      top: 1px;
+    }
+
+    .heartAnimAddWish{
+      color: rgb(78, 29, 29);
+      font-size: 18px;
+      right: 2px;
+      top: 2.2px;
+    }
 
 
-  .discount {
-    color: rgb(176, 24, 24);
-    font-weight: bold;
-    width: fit-content;
-    top: 10px;
-    right: 1px;
-  }
+    .discount {
+      color: rgb(176, 24, 24);
+      font-weight: bold;
+      width: fit-content;
+      top: 10px;
+      right: 1px;
+    }
 
-  .paymentsAccepted i{
-    font-size: 25px;
-    color: rgb(29, 27, 25);
-  }
+    .paymentsAccepted i{
+      font-size: 25px;
+      color: rgb(29, 27, 25);
+    }
     
   /*hovers*/   
   
@@ -314,6 +329,148 @@
     transform: scale(1);
   }
 
+/*RULES*/
+
+/*sales and products images*/
+  @media only screen and (max-width: 617px){
+  
+    .popular img, .sales img{
+      width: 187.5px;
+     height: 312.5px;
+    }
+
+    .row{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+   }
+
+  @media only screen and (min-width: 617px) and (max-width: 799px) {
+  
+   .popular img, .sales img{
+     width: 150px;
+     height: 250px;
+   }
+
+  }
+
+  @media only screen and (min-width: 800px) and (max-width: 959px) {
+  
+   .popular img, .sales img{
+     width: 187.5px;
+     height: 312.5px;
+   }
+
+  }
+
+  @media only screen and (min-width: 960px) and (max-width: 1200px) {
+  
+   .popular img, .sales img{
+     width: 225px;
+     height: 375px;
+   }
+
+   .addToBag{
+    transform: scale(1.1);
+    left: 5px;
+    bottom: 5px;
+    width: 80px;
+   }  
+
+   .fontSize-h1{
+    font-size: 55px;
+   }
+
+   .headerBtns{
+    transform: scale(1.2);
+   }
+
+   h2{
+     font-size: 35px;
+   }
+
+  }
+
+  @media only screen and (min-width: 1201px) and (max-width: 1450px) {
+   
+   .popular img, .sales img{
+     width: 262.5px;
+     height: 437.5px;
+   }
+
+   .addToBag{
+    transform: scale(1.2);
+    left: 10px;
+    bottom: 10px;
+    width: 80px;
+  }  
+
+  .line{
+    border: solid 2px;
+    border-color: rgb(57, 55, 53);
+  }
+
+  .fontSize-h1{
+    font-size: 60px;
+  }
+
+  .headerBtns{
+    transform: scale(1.5);
+  }
+
+ h2{
+    font-size: 40px;
+  }
+
+  .newCollection img {
+    border-radius: 20px;
+    margin-top: 30px;
+  }
+
+  }
+
+  @media only screen and (min-width: 1451px){
+   
+    .popular img, .sales img{
+      width: 300px;
+      height: 500px;
+    }
+
+    .addToBag{
+      transform: scale(1.3);
+      left: 15px;
+      bottom: 12px;
+      width: 80px;
+    }  
+
+    .line{
+      border: solid 2px;
+      border-color: rgb(57, 55, 53);
+    }
+
+    .fontSize-h1{
+      font-size: 60px;
+    }
+
+    .headerBtns{
+      transform: scale(1.5);
+    }
+
+    h2{
+      font-size: 40px;
+    }
+
+    .footerLinks, .socials{
+      transform: scale(1.1);
+    }
+
+    .newCollection img {
+      border-radius: 20px;
+      margin-top: 30px;
+    }
+ 
+   }
 
 /*ANIMATIONS*/
 

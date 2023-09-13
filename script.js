@@ -1,9 +1,101 @@
 $(document).ready(function() { //initiate code only when page is fully loaded
+  
+ //Device adaptation
+  //variables
+   const header = document.getElementById("header"); //select header
+   const headerBtns = document.getElementById("headerBtnsDT"); //select all buttons from header
+   const shoppingBtns = document.getElementById("headerBtns"); //select the buttons except menu div
+   const shoppingBtnsChildren = $(shoppingBtns.children); //select the buttons of the div
+   const dpdMenu = $("#dropdownMenu"); //select menu button
+
+  //error handling
+   if (!header || !headerBtns || !dpdMenu || !shoppingBtns){
+    console.error("Missing elements in - device adaptation -");
+   }
+
+  //hide dropdown menu
+   dpdMenu.hide()
+  
+  //change display when on desktop
+   function changeHeaderDisplay (){
+    if (window.innerWidth > 1200) {
+
+      //show dropdown menu
+      dpdMenu.show()
+
+      //remove existing displays
+      header.classList.remove("column"); //from header
+      headerBtns.classList.remove("column"); //from all the buttons in the header
+      shoppingBtns.classList.remove("justCont-center"); //from the buttons except menu
+      
+
+      //create new display
+       //from header
+        header.classList.add("row");
+        header.classList.add("justCont-spaceBtwn");
+        header.classList.add("marginBtm-30px");
+
+        //from all the buttons in the header 
+        headerBtns.classList.add("row");
+        headerBtns.classList.add("justCont-flexEnd");
+        
+        //from the buttons except menu
+        shoppingBtns.classList.add("justCont-spaceAround");
+        shoppingBtnsChildren.each(function(){
+          $(this).addClass("padding5px");
+        })
+
+        //from the menu button
+        dpdMenu.addClass("marginLeft-30px");
+       
+
+    } else {
+
+      //show dropdown menu
+      dpdMenu.hide()
+
+      //create initial displays
+      header.classList.add("column"); //from header
+      headerBtns.classList.add("column"); //from all the buttons in the header
+      shoppingBtns.classList.add("justCont-center"); //from the buttons except menu
+      
+
+      //remove new display
+       //from header
+       header.classList.remove("row");
+       header.classList.remove("justCont-spaceBtwn");
+       header.classList.remove("marginBtm-30px");
+
+       //from all the buttons in the header
+       headerBtns.classList.remove("row");
+       headerBtns.classList.remove("justCont-flexEnd");
+
+       //from the buttons except menu
+       shoppingBtns.classList.remove("justCont-spaceAround");
+       shoppingBtnsChildren.each(function(){
+         $(this).removeClass("padding5px");
+       })
+
+       //from menu
+       dpdMenu.removeClass("marginLeft-30px");
+    }
+   }
+
+  //call the function
+   changeHeaderDisplay(); //on page load
+   window.addEventListener("resize", changeHeaderDisplay); //everytime window is resized
+
+
 
  //Show product description on image hover
    //variables
-    const productDesc = $(".productDescriptionHomepage");
-    const productImg = $(".productImg");
+    const productDesc = $(".productDescriptionHomepage"); //select the product description
+    const productImg = $(".productImg"); //select the product images
+
+   //error handling
+   if (!productDesc.length || !productImg.length){
+    console.error("Missing elements in - show product description on image hover - ");
+   }  
 
    //hide descriptions
     productDesc.hide();
@@ -27,7 +119,8 @@ $(document).ready(function() { //initiate code only when page is fully loaded
     }
 
    // Call the function
-    showProductDesc();
+    showProductDesc(); //on page load
+  
 
 })
 
