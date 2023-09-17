@@ -85,7 +85,7 @@ Explore the elegance of Venusya through these key features:
 
 - **Menu Button (Laptop Version):** For laptop users, a menu button has been added for easy navigation. Simply click to open or close the menu.
   
-- **Multiple Device Compatibility:** Read [Compatibility](#compatibility-last-update-10-09-2023) for more info.
+- **Multiple Device Compatibility:** Read "[Compatibility](#compatibility-last-update-10-09-2023)" for more info.
 
 ### Features to be added
 The following features are meant to be added in the future:
