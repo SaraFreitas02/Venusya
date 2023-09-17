@@ -86,6 +86,43 @@ $(document).ready(function() { //initiate code only when page is fully loaded
    window.addEventListener("resize", changeHeaderDisplay); //everytime window is resized
 
 
+ //Handle menu options
+  //variables 
+   const menuBtn = $("#dpdMenu"); //select the menu button
+   const shopBtn = $("#shopBtn"); //select the shopping button
+   const menuCont = $("#menuBtnCont") //slect the menu content
+   const shopCont = $("#shoppingContent"); //select the shopping content
+   const menBtn = $("#menBtn"); //select the men button
+   const womenBtn = $("#womenBtn"); //select the women button
+   const menCont = $("#menContent"); //select the men content
+   const womenCont = $("#womenContent"); //select the women content
+
+  //hide elements
+   menuCont.hide();
+   shopCont.hide();
+   menCont.hide();
+   womenCont.hide();
+
+  //error handling 
+   if (!menuBtn || !shopBtn || !menuCont || !shopCont || !menBtn || !womenBtn || !menCont || !womenCont) {
+    console.error("Missing Elements - handle menu options -");
+   }
+
+  //show/hide menu options
+   menuBtn.on("click", function (){
+    menuCont.toggle();
+   }); 
+   shopBtn.on("click", function (){
+    shopCont.toggle();
+   }); 
+   menBtn.on("click", function (){
+    menCont.toggle();
+    womenCont.hide()
+   }); 
+   womenBtn.on("click", function (){
+    womenCont.toggle();
+    menCont.hide();
+   }); 
 
  //Show product description on image hover
    //variables

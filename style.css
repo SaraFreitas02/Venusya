@@ -186,6 +186,43 @@
         color: rgb(57, 55, 53);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
+    
+    .dpdMenu {
+      background-color: transparent;
+      border: none;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .menuBtnCont, .shoppingContent {
+       background-color: rgb(57, 55, 53);
+      border-radius: 20px;
+      position: absolute;
+      z-index: 10;
+    }
+
+    .menuBtnCont {
+      right: 1px;
+      top: 80px;
+      width: 10%;
+    }
+
+    .shoppingContent {
+      right: 190px;
+      top: 0px;
+    }
+
+    .menuBtnCont button, .menuBtnCont a {
+      border: none;
+      text-decoration: none;
+      font-size: 17px;
+      color: white;
+      background-color: transparent;
+      text-align: center;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      width: 100%;
+    }
 
     .seeAll {
       margin: 2%;
@@ -300,6 +337,14 @@
 
   .logoHover:hover{
     transform: scale(1);
+  }
+
+  .menuBtnCont button:hover, .menuBtnCont a:hover {
+    color: rgb(57, 55, 53);
+    font-weight: bold;
+    background-color: white;
+    border: solid 1px rgb(57, 55, 53);
+    border-radius: 20px;
   }
 
   .addToBag button:hover{
