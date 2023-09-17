@@ -331,7 +331,7 @@
     border-color:rgb(57, 55, 53) ;
   }
 
-  i:hover{
+  i:hover, .emptyHeartWish:hover{
     transform: scale(1.2);
   }
 
@@ -543,8 +543,8 @@
       transform: scale(0);
     }
 
-    50% {
-      transform: scale(0.5);
+    50%{
+      transform: scale(1.5);
     }
 
     100%{
@@ -554,8 +554,8 @@
 
   .scaleInHeartAnim {
     animation-name: scaleInHeart;
-    animation-duration: 1s;
-    animation-timing-function: linear;
+    animation-duration: 0.75s;
+    animation-timing-function: ease;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
   }
@@ -566,10 +566,6 @@
       transform: scale(1);
     }
 
-    50% {
-      transform: scale(0.5);
-    }
-
     100%{
       transform: scale(0);
     }
@@ -577,8 +573,8 @@
 
   .scaleOutHeartAnim {
     animation-name: scaleOutHeart;
-    animation-duration: 1s;
-    animation-timing-function: linear;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
   }
