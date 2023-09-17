@@ -71,12 +71,21 @@ To experience this project, simply follow these steps:
 
 Explore the elegance of Venusya through these key features:
 
-  - **Brand Exploration:** Click on the Venusya logo to return to the homepage and explore the brand's offerings effortlessly.
+- **Brand Exploration:** Click on the Venusya logo to return to the homepage and explore the brand's offerings effortlessly.
 
-  - **Engaging Hover Effects:** Experience dynamic and engaging hover effects on various links, buttons and images, adding interactivity to your browsing.
+- **Engaging Hover Effects:** Experience dynamic and engaging hover effects on various links, buttons, and images, adding interactivity to your browsing.
 
-  - **Social Media Icons:** Redirect you to the respective social media.
-  - **Payment Methods Icons:** Inform you of the payment methods accepted.
+- **Social Media Icons:** Redirect you to the respective social media.
+
+- **Payment Methods Icons:** Inform you of the payment methods accepted.
+
+- **Like Buttons with Animations:** Interact with our products by clicking the "like" button. It fills with color when liked and empties with a smooth animation when unliked.
+
+- **Product Descriptions on Hover:** Hover over a product to read its description instantly, enhancing your shopping experience.
+
+- **Menu Button (Laptop Version):** For laptop users, a menu button has been added for easy navigation. Simply click to open or close the menu.
+  
+- **Multiple Device Compatibility:** Read [Compatibility](#compatibility-last-update-10-09-2023) for more info.
 
 ### Features to be added
 The following features are meant to be added in the future:
@@ -92,9 +101,9 @@ The following features are meant to be added in the future:
   
 *(Additional features may be added as the project evolves.)*
 
-## Compatibility *(last update: 10-09-2023)*
+## Compatibility *(last update: 17-09-2023)*
   - **Browser Compatibility:** This project has been tested and optimized for **Google Chrome** version *116.0.5845.141 (Official Build) (64-bit)*. While it may work on other browsers, we recommend using Chrome for the best experience.
-  - **Viewport Compatibility:** Although the website still works on bigger viewports, the current design is tailored for viewports under 768px wide. However, ongoing improvements are planned to enhance compatibility across a wider range of devices and screen sizes, and to better the layout for the current viewport compatibility.
+  - **Device Compatibility:** Although it still needs some improvements, the webshop is built to be functional on all devices such as desktop and laptops, tablets and smartphones.
 
 *(This section will be updated as the project evolves)*
 ## Customization
