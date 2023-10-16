@@ -34,5 +34,4 @@ $(document).ready(function() { //load script when page ready
         })
             
      }
-
 }) 

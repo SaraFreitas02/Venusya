@@ -145,8 +145,8 @@
         width: 50%;
     }
 
-    .width70per{
-        width: 70%;
+    .width20per{
+        width: 20%;
     }
 
     .width30per{
@@ -324,6 +324,8 @@
 
     .emptyHeartWish{
       color: rgb(57, 55, 53);
+      background: transparent;
+      border: none;
       font-size: 20px;
       right: 1px;
       top: 1px;
@@ -331,9 +333,11 @@
 
     .heartAnimAddWish{
       color: rgb(78, 29, 29);
-      font-size: 18px;
-      right: 2px;
-      top: 2.2px;
+      background: transparent;
+      border: none;
+      font-size: 20px;
+      right: 1px;
+      top: 1px;
     }
 
 
@@ -349,37 +353,12 @@
       font-size: 25px;
       color: rgb(29, 27, 25);
     }
-
-    .closePage {
-      background-color: transparent;
-      border: none;
-    }
-
-    .openProduct {
-      width: 50%;
-      background-color: white;
-      border: solid 1px rgb(57, 55, 53);
-      border-radius: 20px;
-      left: 30%;
-      top: 5%;
-    }
-
-    .productImgDisplay .emptyHeartWish {
-      right: 60%;
-      top: 96%;
-    }
-
-    .productImgDisplay .heartAnimAddWish {
-      right: 60.1%;
-      top: 96.1%;
-    }
     
 
  /*hovers*/
   button:hover, .newCollection img:hover {
     cursor: pointer;
   }
-
 
 
 /*RULES*/
