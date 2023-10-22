@@ -27,6 +27,10 @@
     .justCont-flexEnd{
         justify-content: flex-end;
     }
+
+    .justCont-flexStart{
+        justify-content: flex-start;
+    }
     
     .alignItms-center{
         align-items: center;
@@ -74,6 +78,10 @@
         margin: 1px;
     }
 
+    .margin5px{
+        margin: 5px;
+    }
+
     .margin20px{
         margin: 20px;
     }
@@ -112,9 +120,11 @@
     z-index: 5;  
   }
 
-  .positionFixZ{
+  .positionFixZcenter{
     position: fixed;
     z-index: 20;  
+    top: 10%;
+    left: 20%;
   }
 
   .positionAbsZ3{
@@ -352,6 +362,60 @@
     .paymentsAccepted i{
       font-size: 25px;
       color: rgb(29, 27, 25);
+    }
+
+    #openProduct {
+      background-color: whitesmoke;
+      border-radius: 20px;
+      border: solid 1px rgb(61, 56, 52);
+      box-shadow: 3px 3px 10px rgb(61, 56, 52);
+    }
+
+    .closePage {
+      border: none;
+      background-color: transparent;
+      right: 5px;
+      top: 5px;
+      color: rgb(78, 29, 29);
+    }
+
+    .productPageOpen {
+      border-radius: 20px 0 0 20px;
+      padding: 10px;
+    }
+
+    #productSizes button, #buyProductBtn, #seeReviews {
+      border-radius: 20px;
+      border: none;
+      background-color: rgba(61, 56, 52, 0.644);
+      color: whitesmoke;
+      box-shadow: 2px 2px 5px rgb(61, 56, 52);
+      border: solid 1px rgb(61, 56, 52);
+    }
+
+    #oppProductImg {
+      border-radius: 20px;
+      box-shadow: 2px 2px 5px rgb(61, 56, 52);
+    }
+
+    .reviews {
+      border-radius: 0 20px 20px 0;
+    }
+
+    .clientReviews {
+      margin-left: 10px;
+    }
+
+    .reviewX {
+      margin-top: 20px;
+      margin-left: 10px;
+      margin-right: 25px;
+      margin-bottom: 20px;
+      background-color: rgba(61, 56, 52, 0.644);
+      box-shadow: 2px 2px 5px rgb(61, 56, 52);
+      border-radius: 20px;
+      box-shadow: 2px 2px 5px rgb(61, 56, 52);
+      padding: 10px;
     }
     
 
